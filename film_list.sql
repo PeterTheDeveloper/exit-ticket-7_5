@@ -29,3 +29,16 @@ FROM film_list
 GROUP BY catagory;
 
 -- Q6
+
+SELECT ratings, count(rating)
+FROM film_list
+GROUP BY catagory;
+
+-- Q7
+
+UPDATE film_list
+SET category = 'international'
+WHERE category = 'foreign';
+
+
+-- Q8
