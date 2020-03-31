@@ -18,5 +18,14 @@ LIMIT 1;
 
 -- Q4
 
+SELECT title, description
+FROM film_list
+WHERE actors LIKE '%CAMERON STREEP%';
 
--- 
+-- Q5
+
+SELECT catagory, avg(price), avg(length)
+FROM film_list
+GROUP BY catagory;
+
+-- Q6
