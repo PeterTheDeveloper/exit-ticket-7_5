@@ -42,3 +42,6 @@ WHERE category = 'foreign';
 
 
 -- Q8
+
+DELETE FROM film_list
+WHERE category = 'Children';
